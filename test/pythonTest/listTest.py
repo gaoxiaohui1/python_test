@@ -1,0 +1,42 @@
+# print(123)
+# a=input()
+# print('you have inputed：',a)
+#######
+# list=[1,2,3,'asd',True]
+# print('do: list=[1,2,3,\'asd\',True]')
+# print(list)
+# list.append(1.22)
+# print('do: list.append(1.22)')
+# print(list)
+# list.insert(2,None)
+# print('do: list.insert(2,None)')
+# print(list)
+# list.pop()
+# print('do: list.pop()')
+# print(list)
+# list.append(['a','b',123])
+# print('do: list.append([\'a\',\'b\',123])')
+# print(list)
+# list.pop(2)
+# print('do: list.pop(2)')
+# print(list)
+##list[0]=PI
+# print('do: list[0]=PI')
+# print(list)
+########
+# list=[['apple','bag','cat'],'dog','egg',['fignt','gay','hi','int']]
+# print('声明了个list：list=[[\'apple\',\'bag\',\'cat\'],\'dog\',\'egg\',[\'fignt\',\'gay\',\'hi\',\'int\']]')
+# print('想输出apple')
+# print('请输入第一个索引：')
+# index=int(input())
+# print('请输入第二个索引：')
+# index2=int(input())
+# print('apple=list[%d][%d]=%s' % (index,index2,list[index][index2]))
+########
+tuple=(1,1.11,'a',[1,'b'])
+print('声明元组tuple:')
+print('tuple=(1,1.11,\'a\',[1,\'b\'])')
+print('说元组不变')
+print('tuple[0]=2')
+tuple[0]=2
+print(tuple)
